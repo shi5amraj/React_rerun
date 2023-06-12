@@ -1,0 +1,136 @@
+
+.todo
+{
+    width: 90%;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+   
+}
+.todo input
+{
+    width: 40%;
+    height: 70%;
+    outline: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50px;
+    padding-left: 5%;
+    background-color: rgb(201, 183, 183);
+
+
+}
+
+.todo button
+{
+    width: 10%;
+    height: 70%;
+    font-size: larger;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.todoList
+{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+   
+
+}
+.todoListItem
+{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoListItem .paradiv
+{
+  
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
+
+}
+.todoListItem .paradiv .spanClass
+{
+    color:rgb(19, 222, 19);
+
+}
+
+.todoListItem .icondiv
+{
+  
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5%;
+   
+
+}
+
+.icondiv button
+{
+
+    border: none;
+    background: none;
+}
+
+.editdiv
+{
+  width: 70%;
+  height: 25px;
+  
+  display: flex;
+  gap: 0.5rem;
+ 
+
+}
+
+.editdiv input
+{
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+   color: black;
+   outline: none;
+   border: none;
+   padding-left: 2rem;
+   font-weight: bold;
+}
+
+.editdiv button
+{
+ width: 20%;
+ height: 100%;
+ border: none;
+ border-radius: 10px;
+ background-color: green;
+ color: white;
+ font-weight: bold;
+
+
+}
