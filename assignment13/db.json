@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+
+      "id":1,
+      "name": "Kumar Shivam",
+      "gender":"male",
+      "mob":"9517958414"
+    },
+
+    {
+
+      "id":2,
+      "name": "Kumar Shubham",
+      "gender":"male",
+      "mob":"9517958414"
+    },
+    {
+
+      "id":3,
+      "name": "Amit Kumar",
+      "gender":"male",
+      "mob":"9517958414"
+    },
+    {
+
+      "id":4,
+      "name": "Riya Kumari",
+      "gender":"female",
+      "mob":"9517958414"
+    },
+    {
+
+      "id":5,
+      "name": "Pooja Singh",
+      "gender":"male",
+      "mob":"9517958414"
+    },
+    {
+
+      "id":6,
+      "name": "Kshitiz mani",
+      "gender":"male",
+      "mob":"9517958414"
+    }
+    
+  ]
+}
