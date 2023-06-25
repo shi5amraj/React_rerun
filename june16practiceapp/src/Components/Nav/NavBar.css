@@ -1,0 +1,40 @@
+.navContainer
+{
+
+    width: 100vw;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   
+
+}
+.title
+{
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemContainer
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    color: white;
+   
+    
+   
+}
+a {
+    color: white;
+    text-decoration: none;
+   
+  }
+
