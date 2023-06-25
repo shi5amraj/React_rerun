@@ -47,12 +47,7 @@ const Poll = () => {
 
         <>
        
-        <div style={{textAlign:"center"}}>
-          <h1>Please Wait Poll Loading</h1>
-        
-          {/* <p>Loading Time: {timer} </p> */}
-
-        </div>
+      
 
     {
     posts.length>0 &&
