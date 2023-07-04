@@ -1,0 +1,52 @@
+
+.homecontainer
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homecontainer video
+{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+   
+}
+
+.video-player::-webkit-media-controls {
+    display: none !important;
+  }
+.midDiv
+{
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 25%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+.midDiv button
+{
+
+    width:40% ;
+    height: 8vh;
+    border-radius: 20px;
+    box-shadow: 0 0 30px red;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    
+}

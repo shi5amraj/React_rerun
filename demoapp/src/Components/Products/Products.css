@@ -1,0 +1,202 @@
+
+.productcomp
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.productcomp h1{
+
+    width: 100%;
+    height: 8vh;
+    
+}
+
+.cardContainer
+{
+
+width: 100%;
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 50px;
+
+
+}
+
+
+.productcomp .cardDiv
+{
+  width: 40%;
+  height: 300px;
+  box-shadow: 0 0 20px black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.cardDiv .leftDiv
+{
+ width: 40%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 10px;
+ 
+
+}
+
+.cardDiv .leftDiv img
+{
+   width: 90%;
+   height: 70%;
+   object-fit: cover;
+   border-radius: 10px;
+   outline: none;
+   box-shadow: 0 0 1px black;
+
+}
+
+.cardDiv .line
+{
+
+    width: 2px;
+    height: 90%;
+    background-color: black;
+   
+}
+
+.cardDiv .rightDiv
+{
+
+width: 60%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.rightDiv .catagory
+{
+  width: 100%;
+  height: 10%;
+  font-weight: bold;
+  font-size: large;
+
+
+}
+
+.rightDiv .title
+{
+  width: 100%;
+  height: 30%;
+
+}
+
+.rightDiv .price
+{
+  width: 100%;
+  height: 10%;
+  font-weight: bold;
+  color: green;
+
+}
+
+
+
+
+
+
+.btnDiv
+{
+ width: 80%;
+ height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 5px;
+
+}
+
+
+.btnDiv a
+{
+ width: 45%;
+ height: 100%;
+
+
+}
+
+
+.btnDiv a button
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(14, 216, 14);
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  border: none;
+
+
+}
+
+.btnDiv button
+{
+
+    width: 45%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(14, 216, 14);
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    border: none;
+    
+}
+
+
+
+.gold-stars {
+    color: gold; /* Set the color of the entire paragraph, including stars */
+    font-size: 20px;
+  }
+  .red-stars
+  {
+    color: red; /* Set the color of the entire paragraph, including stars */
+    font-size: 20px;
+
+  }
+
+  .green-stars
+  {
+    color: green; /* Set the color of the entire paragraph, including stars */
+    font-size: 20px;
+
+  }
+
+  .ratingPara
+  {
+    font-weight: bold;
+
+  }
+  
+ 
+
+
+
+
