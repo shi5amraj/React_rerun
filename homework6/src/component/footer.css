@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+}
+.footer .first{
+    margin-left: 100px;
+}
+.footer .third{
+    margin-right: 100px;
+}
+.footer .same h3,p{
+    color: white;
+    text-align: justify;
+}
