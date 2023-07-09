@@ -44,6 +44,7 @@ const Navbar = () => {
   const handleModalConfirm = () => {
    
    dispatch(userLogoutActionCreater());
+   navigate("/")
     setShowModal(false);
   };
 
