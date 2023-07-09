@@ -1,0 +1,23 @@
+
+.logincontainer
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 38, 38);
+
+
+}
+.loginForm
+{
+
+width: 500px;
+height: 400px;
+border-radius: 10px;
+box-shadow: 0 0 10px white;
+color: white;
+padding: 2%;
+
+}

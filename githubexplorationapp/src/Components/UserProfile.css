@@ -1,0 +1,65 @@
+
+.profilecontainer
+{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: rgb(40, 38, 38);
+  color: white;
+  box-sizing: border-box;
+
+
+}
+.cardcontainer
+{
+  
+    width: 450px;
+    height: 250px;
+    box-shadow: 0 0 10px white;
+   
+    background-color: black;
+
+}
+
+.repocard
+{
+
+    width: 1000px;
+    height: 100px;
+    box-shadow: 0 0 8px white;
+    background-color: rgb(189, 189, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.repocardleftdiv
+{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10%;
+  
+
+}
+
+.repocardrightdiv
+{
+ width: 40%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10%;
+
+}

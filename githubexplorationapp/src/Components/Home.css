@@ -1,0 +1,27 @@
+
+.homecontainer
+{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: rgb(40, 38, 38);
+  color: white;
+  box-sizing: border-box;
+
+
+}
+.cardcontainer
+{
+  
+    width: 450px;
+    height: 250px;
+    box-shadow: 0 0 10px white;
+   
+    background-color: black;
+
+}

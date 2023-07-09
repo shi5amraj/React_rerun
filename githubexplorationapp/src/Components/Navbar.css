@@ -1,0 +1,32 @@
+
+.navbarcontainer
+{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.navbarleftcontainer
+{
+  width: 40vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.navbarrightcontainer
+{
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap:30px;
+    margin-right: 2rem;
+    
+}
